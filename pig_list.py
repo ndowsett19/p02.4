@@ -25,5 +25,11 @@ def run_tests():
 
 
 def rotate(nums):
+    if nums == []:
+        print("[]")
+    else:
+        n = nums.pop(0)
+        nums.append(n)
+        print(nums)
 
 

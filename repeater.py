@@ -28,5 +28,9 @@ def run_tests():
 
 
 def is_repeated(nums):
+    if nums[0] in nums[1:]:
+        print("Repeated")
+    else:
+        print("Unique")
 
 

@@ -29,5 +29,13 @@ def run_tests():
 
 
 def clean(nums, n):
+    if n not in nums:
+        print(nums)
+    elif n in nums:
+        total = nums.count(n)
+        for i in range(total):
+            nums.remove(n)
+        print(nums)
+        
 
 
